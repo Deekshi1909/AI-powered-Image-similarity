@@ -1,0 +1,16 @@
+# Datasets
+101_ObjectCategories/
+
+# Model & feature files
+*.npy
+
+# Uploaded & generated images
+static/uploads/
+static/sim_*.jpg
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment
+.env
