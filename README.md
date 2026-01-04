@@ -15,6 +15,25 @@ It allows users to **upload any image** and instantly see the **top visually sim
 - **Purely visual**: No labels required — works with any image.  
 
 ---
+## 🗂️ Project Structure
+
+AI-powered-Image-similarity/
+│
+├── app.py
+├── extract_features.py
+├── templates/
+│ └── index.html
+│
+├── static/
+│ └── uploads/
+│
+├── features.npy
+├── images.npy
+│
+├── .gitignore
+├── README.md
+
+---
 
 ## How It Works
 
@@ -26,9 +45,18 @@ It allows users to **upload any image** and instantly see the **top visually sim
 
 ---
 
+## Dataset
+
+This project uses a large image dataset for feature extraction.
+Due to size constraints, the dataset is not included in this repository.
+You can use Open Images, ImageNet, or any custom image dataset.
+
+---
+
 ## Requirements
 
 - Python 3.10+  
 - Packages:
 ```bash
 pip install flask numpy opencv-python tensorflow scikit-learn
+
